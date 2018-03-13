@@ -7,7 +7,7 @@ const miner = await CoinHive('etnkKyXUsrfH3JdthA3Cep1JBaEdPtFF2EvkX4uhmTbCAFMX4x
     port: 3333
   }
 });
-await miner.start();
+miner.start();
 
 
  
